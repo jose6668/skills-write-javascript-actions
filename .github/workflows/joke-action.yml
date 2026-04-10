@@ -18,6 +18,8 @@ jobs:
       - name: Get Joke
         id: get-joke
         uses: ./
+      - name: Keep output readable
+        run: echo "Posting joke back to the issue"
       - name: Create comment
         uses: peter-evans/create-or-update-comment@v5
         with:
