@@ -1,5 +1,6 @@
 name: "Joke Action"
 description: "Fetches a random joke and exposes it as an output"
+# Minimal metadata for the GitHub Skills dad joke action.
 
 outputs:
   joke:
