@@ -4,6 +4,7 @@
   "description": "_Write your own GitHub JavaScript Action and automate customized tasks unique to your workflow._",
   "main": "dist/index.js",
   "scripts": {
+    "lint:note": "echo \"No lint step for this exercise\"",
     "build": "ncc build src/main.js -o dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
